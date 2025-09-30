@@ -1,9 +1,15 @@
 import React from 'react'
+import Mainpost from './Mainpost'
+import Mainreel from './Mainreel'
+import Mainwrite from './Mainwrite'
 
 const MainContent = () => {
   return (
    <div style={{width:"80%",textAlign:"center",backgroundColor:"lightblue",fontSize:"40px"}}>
-        <h1>this is actual main content</h1>
+        <Mainreel/>
+        <Mainwrite/>
+        <Mainpost/>
+
     </div>
   )
 }

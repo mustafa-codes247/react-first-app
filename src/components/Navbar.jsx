@@ -1,12 +1,16 @@
 import React from 'react'
+import Navlogo from './Navlogo'
+import Navicon from './Navicon'
+import Navoption from './Navoption'
+import { Stack } from '@mui/material'
 
 const Navbar = () => {
   return (
    
    <>
-    <div>
-        <pre style={{backgroundColor:"yellow",fontSize:"30px"}}>                   daraz      home        products        new arrivals        about       contact</pre>
-    </div>
+   <Navlogo/>
+   <Navicon/>
+   <Navoption/>
     </>
   )
 }

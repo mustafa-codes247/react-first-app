@@ -1,11 +1,13 @@
 import React from 'react'
+import Options from './Options'
+import Shortcut from './Shortcut'
 
 const LeftSidebar = () => {
   return (
-    <div style={{width:"20%",height:"100%",backgroundColor:"lightgreen"}}>
-        <h1>this is left sidebar</h1>
-      
-    </div>
+    <>
+    <Options/>
+    <Shortcut/>  
+    </>
   )
 }
 

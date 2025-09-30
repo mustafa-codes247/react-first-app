@@ -3,22 +3,22 @@ import Navbar from './components/Navbar'
 import RightSidebar from './components/RightSidebar'
 import LeftSidebar from './components/LeftSidebar'
 import MainContent from './components/MainContent'
-import Footer from './components/Footer'
+import Shortcut from './components/Shortcut'
+import { Stack } from '@mui/material'
 
 const App = () => {
   return (
     //react fragmentatio we can put multiple divs wihtin this main empty div
     <>
-
+    <Stack direction={"row"}>
       <Navbar/>
- 
-    <div style={{display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+    </Stack>
+    <Stack direction={"row"} p={2}>
     <LeftSidebar/>
     <MainContent/>
     <RightSidebar/>
-    </div>
-
-    <Footer/>
+    </Stack>
+    
     </>
   )
 }
