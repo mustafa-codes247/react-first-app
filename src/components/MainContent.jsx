@@ -5,7 +5,7 @@ import Mainwrite from './Mainwrite'
 
 const MainContent = () => {
   return (
-   <div style={{width:"80%",textAlign:"center",backgroundColor:"lightblue",fontSize:"40px"}}>
+   <div className='w=[50%] bg-orange-800'>
         <Mainreel/>
         <Mainwrite/>
         <Mainpost/>

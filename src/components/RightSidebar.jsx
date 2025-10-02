@@ -2,7 +2,7 @@ import React from 'react'
 
 const RightSidebar = () => {
   return (
-    <div style={{width:"20%",backgroundColor:"lightgreen"}}>
+    <div className='w=[25%] bg-red-800'>
         <h1>right sidebar</h1>
         <p>all friends will appear here</p>
         <p>all friends will appear here</p>
