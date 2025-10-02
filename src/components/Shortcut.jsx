@@ -23,6 +23,7 @@ const Shortcut = () => {
       profile:"/s5.png"
     }
     ]
+
   return (
     <>
       <h1 className="text-lg font-semibold mb-2">Shortcut</h1>
