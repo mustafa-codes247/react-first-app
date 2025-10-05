@@ -26,7 +26,6 @@ const Profile = () => {
     ]
   return (
     <>
-     <h1 className="text-lg font-semibold mb-2">Profile</h1>
   <div>
 {
   userprofile.map((user)=>(

@@ -1,7 +1,8 @@
 import React from 'react'
-import RightSidebar from './components/RightSidebar'
-import MainContent from './components/MainContent'
-import LeftSidebar from './components/LeftSidebar'
+import RightSidebar from './components-fb-home-page/RightSidebar'
+import MainContent from './components-fb-home-page/MainContent'
+import LeftSidebar from './components-fb-home-page/LeftSidebar'
+import Navbar from './components-fb-home-page/Navbar'
 
 
 const App = (props) => {
@@ -9,11 +10,16 @@ const App = (props) => {
   return (
     //react fragmentatio we can put multiple divs wihtin this main empty div
     <>
-   { <div className="flex gap-6 px-4">
+    <div  className='bg-white'>
+    <Navbar/>
+    </div>
+   { <div className="mt-20 flex gap-6">
   <LeftSidebar/>
   <MainContent/>
   <RightSidebar/>
+  
 </div> }
+
 
     
     </>
